@@ -46,10 +46,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4400175258054081317}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 973c2bc0ebdd1cd4b90513d41400bde2, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c1f2a4d8e9b4c6fa0d3b5e8f21694ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Art::LifetimeAuthoring
-  Life:
+  StartLifetime:
     m_Mode: 0
     m_CurveMultiplier: 0
     m_CurveMin:

@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 832626794331367298}
   - component: {fileID: 4425144794130187331}
   - component: {fileID: 6238865401534652832}
-  - component: {fileID: 7836637003677838482}
   - component: {fileID: 6069528444260716400}
   - component: {fileID: 4356001288067324343}
   - component: {fileID: 2742432373386033544}
@@ -107,10 +106,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 345403024706819016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 973c2bc0ebdd1cd4b90513d41400bde2, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c1f2a4d8e9b4c6fa0d3b5e8f21694ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Partity::Partity.LifetimeAuthoring
-  Life:
+  StartLifetime:
     m_Mode: 3
     m_CurveMultiplier: 0
     m_CurveMin:
@@ -127,35 +126,6 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_ConstantMin: 1.6
     m_ConstantMax: 2
---- !u!114 &7836637003677838482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 345403024706819016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a57987b19eb4282a6063840a1843cc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Partity::Partity.MovementAuthoring
-  Speed:
-    m_Mode: 3
-    m_CurveMultiplier: 0
-    m_CurveMin:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_CurveMax:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_ConstantMin: 3
-    m_ConstantMax: 8
 --- !u!114 &6069528444260716400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -362,3 +332,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Partity::Partity.SpeedAuthoring
   LocalSpace: 0
+  StartSpeed:
+    m_Mode: 3
+    m_CurveMultiplier: 0
+    m_CurveMin:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_CurveMax:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ConstantMin: 3
+    m_ConstantMax: 8
