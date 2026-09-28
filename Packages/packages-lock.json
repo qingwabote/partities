@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "bag": {
+      "version": "file:bag",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "bastard": {
       "version": "file:bastard",
       "depth": 0,
