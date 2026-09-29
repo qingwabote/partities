@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4170000000000000009}
   - component: {fileID: 3547770361262589735}
   - component: {fileID: 4170000000000000010}
+  - component: {fileID: 4170000000000000011}
   m_Layer: 0
   m_Name: Projectile14Particle
   m_TagString: Untagged
@@ -123,7 +124,7 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     m_ConstantMin: 0
-    m_ConstantMax: 0.7
+    m_ConstantMax: 4
 --- !u!114 &4170000000000000007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -363,3 +364,20 @@ MonoBehaviour:
       m_NumAlphaKeys: 3
     m_ColorMin: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMax: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &4170000000000000011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4170000000000000001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b4d6f8a0c2e4b6d8f0a2c4e6b8d0f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Partity::Partity.TrailAuthoring
+  LifetimeMultiplier: 0.05
+  MinVertexDistance: 0.2
+  WidthOverTrail: 0.45
+  Mesh: {fileID: 4300000, guid: 6091a4c217403ee47bdba8123d0b96d8, type: 2}
+  Material: {fileID: 2100000, guid: 55dcc81e96c2dd047a871ddac108b811, type: 2}
