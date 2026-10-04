@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TrailRibbon2
+  m_Name: TrailRibbon
   m_Shader: {fileID: 4800000, guid: 4b5c6d7e8f90a1b2c3d4e5f6a7b8c9d0, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,7 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 0d1fb353c40bd6345af42a3b4f0bdb1a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4ba4f2efdd0a572428cfe745429a4ad7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TrailTex:

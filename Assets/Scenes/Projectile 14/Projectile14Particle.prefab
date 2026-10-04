@@ -378,7 +378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2b4d6f8a0c2e4b6d8f0a2c4e6b8d0f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Partity::Partity.TrailAuthoring
-  LifetimeMultiplier: 0.05
+  Lifetime: 0.2
   MinVertexDistance: 0.2
   WidthOverTrail: 0.45
   Mesh: {fileID: 4300000, guid: 6091a4c217403ee47bdba8123d0b96d8, type: 2}

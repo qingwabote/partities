@@ -499,7 +499,7 @@ Transform:
   m_GameObject: {fileID: 7000}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: -10, y: 0.5, z: 1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -517,15 +517,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a175db189e8470780faa5eda0d974c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetRoot: {fileID: 0}
+  HeadPrefab: {fileID: 1861718176511902779, guid: db2daa8f69dea1e4fbc075282163cba9, type: 3}
   Cooldown: 3
   IntervalBetweenAttacks: 0.2
-  AttackCount: 5
-  DegreeAngleBetweenAttacks: 20
+  AttackCount: 1
+  DegreeAngleBetweenAttacks: 0
+  UseFixedBaseAngle: 1
+  FixedBaseAngleDegrees: 90
   MovementSpeed: 10
   TimeToLive: 2.25
   DelayCleanupTime: 1
-  ScreenHalfExtents: {x: 10, y: 6}
+  ScreenHalfExtents: {x: 100, y: 100}
 --- !u!1 &1301188521
 GameObject:
   m_ObjectHideFlags: 0
