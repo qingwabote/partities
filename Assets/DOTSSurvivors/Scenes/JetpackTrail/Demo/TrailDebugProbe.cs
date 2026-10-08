@@ -105,14 +105,7 @@ namespace JetpackTrailRef
                 Rotation = quaternion.identity,
                 Scale = 1f,
             });
-            em.AddComponentData(m_Entity, new Partity.Particle
-            {
-                Position = start,
-                Rotation = quaternion.identity,
-                Scale = 1f,
-                Lerp = 0.5f,
-            });
-            em.AddComponentData(m_Entity, new Partity.Lifetime { Life = Lifetime, Time = 0f });
+            em.AddComponentData(m_Entity, new Partity.Lifetime { Life = Lifetime, Time = 0f, Lerp = 0.5f });
             em.AddComponentData(m_Entity, new Partity.TrailRenderer
             {
                 Lifetime = TrailTtl,
